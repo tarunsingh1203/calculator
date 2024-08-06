@@ -26,7 +26,7 @@ main{
 }
 
 .calc{
-   height: 70vh;
+   height: 72vh;
    width: 45vh;
    background-color: black;
    border-radius: 30px;
@@ -127,4 +127,28 @@ main{
 }
 .hide{
    display: none;
+}
+
+
+
+
+@media screen and (max-width: 360px) {
+
+   .box{
+      height: 52px;
+      width: 52px;
+   }
+
+   .box:nth-child(17){
+      width: 115px;
+   }
+   
+   .keys{
+      gap: 0.6rem;
+   }
+
+   .calc{
+      height: 70vh;
+      width: 40vh;
+   }
 }
