@@ -1,0 +1,130 @@
+*{
+   margin: 0;
+   padding: 0;
+}
+
+main{
+   text-align: center;
+}
+
+.heading{
+   height: 10vh;
+   background-color: dimgray;
+   text-align: center;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.container{
+   margin-top: 10vh;
+   height: 70vh;
+   align-items: center;
+   text-align: center;
+   justify-content: center;
+   display: flex;
+}
+
+.calc{
+   height: 70vh;
+   width: 45vh;
+   background-color: black;
+   border-radius: 30px;
+  
+}
+
+.result{
+   height: 17vh;
+   font-size: 34px;
+   padding-right: 20px;
+   display: flex;
+   justify-content: right;
+   align-items: last baseline;
+   text-align: right;
+   right: 50%;
+   color: #ffffff;
+   padding-right: 28px;
+
+   
+}
+.res{
+   border-bottom: 2px solid #ffffff;
+   width: 35vh;
+   height: 15vh;
+   align-items: last baseline;
+   justify-content: right;
+   display: flex;
+   flex-wrap: wrap;
+   overflow: auto;
+   scrollbar-width: 1px;
+}
+.res::-webkit-scrollbar{
+   width: 8px;
+}
+.res::-webkit-scrollbar-track{
+   background: rgb(68, 67, 67);
+   border-radius: 4px;
+}
+.res::-webkit-scrollbar-thumb{
+   background: rgb(145, 144, 144);
+   border-radius: 4px;
+}
+
+.keys{
+   margin-top: 2.5rem;
+   display: flex;
+   flex-wrap: wrap;
+   gap: 1rem;
+   justify-content: space-around;
+   text-align: center;
+   
+}
+
+.box{
+   background-color: rgb(68, 67, 67);
+   height: 57px;
+   width: 57px;
+   border: none;
+   border-radius: 50%;
+   text-transform: capitalize;
+   font-size: 22px;
+   font-weight: 550;
+   color: #ffffff;
+   text-align: center;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.left{
+   margin-left: 4%;
+}
+
+.orange{
+   background-color: orange;
+   margin-right: 4%;
+   font-size: 24px;
+}
+
+.gray:first-child{
+   margin-left: 4%;
+}
+.gray{
+   background-color: rgb(145, 144, 144);
+   color: black;
+}
+
+.box:nth-child(17){
+   border-radius: 30px;
+   width: 140px;
+   justify-content: left;
+   padding-left: 20px;
+
+}
+
+.box:nth-child(18){
+   margin-left: 1%;
+}
+.hide{
+   display: none;
+}
